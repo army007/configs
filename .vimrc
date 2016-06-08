@@ -49,4 +49,9 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 set ts=4
 set number
 set laststatus=2
-set expandtab
+
+" enable vim to source .vimrc from working directory.
+set exrc
+" secure the previous option. restricts execution of command from non-default
+" .vimrc.
+set secure
